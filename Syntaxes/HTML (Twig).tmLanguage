@@ -30,6 +30,10 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>include</key>
+			<string>text.html.basic</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>(&lt;)([a-zA-Z0-9:]++)(?=[^&gt;]*&gt;&lt;/\2&gt;)</string>
 			<key>beginCaptures</key>
